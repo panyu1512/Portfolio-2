@@ -1,23 +1,23 @@
 .header {
     min-height: 60px;
     display: flex;
-    background-color: white;
+    background-color: rgb(219, 250, 253);
     position: sticky;
     top: 0;
     z-index: 100;
+    font-family: Arial;
   }
   
 .brand__name{
     text-decoration:none;
     font-weight: bold;
-    font-family: Arial, Verdana, sans-serif;
     color: black;
 }
 
 .brand__name:hover{
     transition: 150ms;
     transform: translateY(-4px);
-    box-shadow: 0 1px 14px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 14px 2px rgba(173, 169, 169, 0.15);
 }
 
 

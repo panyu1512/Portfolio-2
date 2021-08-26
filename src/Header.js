@@ -6,12 +6,12 @@ function Header() {
     return (
         <div className="header">
             <div className="header__menu">
-                <a class= "brand__name" href="#">ENRIQUE FERRER</a>
+                <a class= "brand__name" href="/home">ENRIQUE FERRER AGIUS</a>
                 <div className="header__nav">
                     <nav>
-                        <a href="#">Contacto</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Github</a>
+                        <a href="/contacto">Contact</a>
+                        <a href="/#proyectos">Proyects</a>
+                        <a href="https://github.com/panyu1512?tab=repositories">Github</a>
                     </nav>
                 </div>
             </div>
